@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#banner {
+  text-align: center;
+  background-color: #1e8bc3;
+  font-family: "poppins";
+  color: white;
+  padding: 50px 0px 20px 0px;
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+#menu {
+  background-color: #00b5cc;
+  color: white;
+  font-family: "poppins";
+  font-size: 120%;
+}
+
+#menuMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    display: none;
+  }
+  #menuMobile {
+    display: block;
+    background-color: #1e8bc3;
+  }
+  #menu {
+    display: none;
+  }
+  #titulo {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+}
